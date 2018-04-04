@@ -1,0 +1,49 @@
+
+html,body {
+    height: 100%;
+    font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width:1000px;
+    font-size: 14px;
+}
+a {
+    color: #06C;
+    cursor: pointer;
+    text-decoration: none;
+}
+a {
+    color: #06C;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+a:hover {
+    color: #039;
+}
+a:focus,input[type=button] ,input[type=submit]{
+    outline: none;
+}
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border:none
+}
+ul,ol,li{
+    list-style: none;
+}
+.top-h{
+    top: 65px;
+}
+.top-h1{
+    top: 85px;
+}
+
+#li-h>li{
+    height: 40px;
+}
+#li-h>li>a:hover{
+    background: none;
+}
+.remark{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
